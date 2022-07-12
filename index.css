@@ -1,0 +1,114 @@
+﻿#cs {
+
+		position: fixed;
+
+		right: 60px;
+
+		bottom: 60px;
+
+		display: block;
+
+		cursor: pointer;
+
+	}
+
+
+
+	.gallery {
+
+		position: relative;
+
+	}
+
+
+
+	#AndroidCode img {
+
+		width: 100%;
+
+	}
+
+
+
+	#IosCode img {
+
+		width: 50%;
+
+	}
+
+
+
+	.contact {
+
+		position: absolute;
+
+		width: 100%;
+
+		top: 0;
+
+		left: 0;
+
+		height: 200px;
+
+	}
+
+
+
+	.container .box {
+
+		text-align: center;
+
+		margin-top: 30px;
+
+	}
+
+
+	  
+	  .ui-flex {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }
+	  
+	  #screen-shot-top>div {
+		width: 200px;
+		margin: 20px 15px;
+		font-size: 16px;
+		height: 50px;
+		border: 2px solid #c18000;
+		border-radius: 25px;
+		padding: 0 15px;
+		transition: all 0.3s;
+		position: relative;
+		top: 0;
+	  }
+	  #screen-shot-top>div:nth-of-type(2){
+	      width: 250px;
+	  }
+	  
+	  #screen-shot-top>div:hover {
+		cursor: pointer;
+		top: -10px;
+	  }
+	  
+	  #screen-shot-top>div span {
+		width: 30px;
+		display: block;
+		margin-right: 10px;
+	  }
+	  
+	  #screen-shot-top>div span img {
+		width: 30px;
+		height: 30px;
+	  }
+	  
+	  #screen-shot-top>div a {
+		display: block;
+		/*width: 100px;*/
+		text-align: left;
+		font-size: 18px;
+	  }
+	  
+	  #screen-shot-top a:hover {
+		color: #333;
+	  }
